@@ -6,7 +6,7 @@ const { docopt } = require('docopt');
 const pkg = require('./package.json');
 
 const usage = `
-Usage: cronstrue [options] <expression>
+Usage: cronstrue-cli [options] <expression>
 
 Options:
   -l --locale LANG     locale [default: en]
